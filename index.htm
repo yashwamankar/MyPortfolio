@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Portfolio</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#" style="--i: 1" class="active">Home</a></li>
+            <li><a href="#" style="--i: 2">About</a></li>
+            <li><a href="#" style="--i: 3">Projects</a></li>
+            <li><a href="#" style="--i: 4">Contact Me</a></li>
+            <li><a href="https://www.blogger.com" style="--i: 5">Blogs</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My name is <span class="purple">Yash</span>
+          <div>and I am a</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btnn">Download Resume</button>
+            <button class="btnn2"><a href="https://github.com/Enigma7898"></a>GitHub</button>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="imagess.png" alt="" />
+        </div>
+      </section>
+      <hr />
+
+      <section class="home">
+        <div class="home1">
+          <a href="https://www.facebook.com/yash.wamankar"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/yashwamankar"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/yash-wamankar-282245219"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <div class="home-content">
+          <h1>Yash Wamankar</h1>
+          <h3>Front-End Developer</h3>
+          <p>
+            Web Developer with a Passion for Creating Beautiful Websites.
+            <br />
+            Front-end developers are responsible for anything a user sees, hear
+            and feels on a website. They also make sure that a website works
+            well on different browsers, platforms and devices. Front-end
+            development is a highly creative field that requires a deep
+            understanding of UX design and CSS.
+          </p>
+          <a href="#" class="btn">Hire Me</a>
+        </div>
+        <div class="home-img">
+          <div class="glowingcircle">
+            <span></span>
+            <span></span>
+            <div class="image">
+              <img src="./img.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Graphic Designer",
+          "Front-End Developer",
+          "Video Editor",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
